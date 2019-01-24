@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_48">
+
+    <ImageView
+        android:id="@+id/img_portrait"
+        android:layout_width="@dimen/dp_36"
+        android:layout_height="@dimen/dp_36"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp_12"
+        tools:src="@drawable/ic_like_orange" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_6"
+        android:layout_toRightOf="@+id/img_portrait"
+        android:ellipsize="end"
+        android:maxWidth="@dimen/dp_120"
+        android:singleLine="true"
+        android:textColor="@color/c_333333_text"
+        android:textSize="@dimen/sp_12"
+        android:textStyle="bold"
+        tools:text="张三的小号" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_6"
+        android:layout_toRightOf="@+id/img_portrait"
+        android:textColor="@color/c_747474"
+        android:textSize="@dimen/sp_10"
+        tools:text="2019-2-2 12:23:23" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_48"
+    android:gravity="center_vertical">
+
+    <CheckBox
+        android:id="@+id/cb_like"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@drawable/selector_like"
+        android:paddingLeft="@dimen/dp_4"
+        android:textColor="@color/select_video"
+        android:textSize="@dimen/sp_12"
+        tools:text="12314" />
+
+    <CheckBox
+        android:id="@+id/cb_dislike"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@drawable/selector_dislike"
+        android:paddingLeft="@dimen/dp_4"
+        android:textColor="@color/select_video"
+        android:textSize="@dimen/sp_12"
+        tools:text="12314" />
+
+    <CheckBox
+        android:id="@+id/cb_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_comment"
+        android:paddingLeft="@dimen/dp_4"
+        android:textColor="@color/select_video"
+        android:textSize="@dimen/sp_12"
+        tools:text="12314" />
+</LinearLayout>

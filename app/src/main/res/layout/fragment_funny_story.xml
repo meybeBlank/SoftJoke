@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengz.softjoke.common.MultipleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/multiple_funny_story_frg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <yuan.kuo.yu.view.YRecyclerView
+        android:id="@+id/recycler_funny_story_frg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+</com.fengz.softjoke.common.MultipleRelativeLayout>
