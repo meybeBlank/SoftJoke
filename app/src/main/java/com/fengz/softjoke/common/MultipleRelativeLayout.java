@@ -18,6 +18,7 @@ import java.util.ArrayList;
  * 作   者：fengzhen
  * <p>
  * 功能描述：可切换 加载 错误 空 无网络 正常 等多种状态界面
+ * 原作者：qyxxjd
  */
 public class MultipleRelativeLayout extends RelativeLayout {
     private static final RelativeLayout.LayoutParams DEFAULT_LAYOUT_PARAMS =

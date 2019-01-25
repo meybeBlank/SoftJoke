@@ -1,4 +1,4 @@
-# FengArchitecture
+# SoftJoke
 MVP+RxJava+Retrofit+Dagger2 基本架构实现
 
 基础上做了一些常见的功能集合
